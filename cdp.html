@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental del Pueblo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            color: #2E5266;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #87EAEE;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #2E5266;
+        }
+        nav {
+            background-color: #DE8F6E;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .service {
+            border: 1px solid #87EAEE;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+        .highlight {
+            background-color: #87EAEE;
+            color: #2E5266;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #A57548;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .animated-teeth {
+            width: 50px;
+            height: 50px;
+            background: url('https://example.com/tooth.png') no-repeat center center;
+            background-size: contain;
+            animation: float 3s ease-in-out infinite;
+            display: inline-block;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clínica Dental del Pueblo</h1>
+    </header>
+    <nav>
+        <a href="#services">Servicios</a>
+        <a href="#promotion">Promociones</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="services">
+            <h2>Servicios</h2>
+            <div class="service">
+                <h3>Blanqueamiento</h3>
+                <p>Recupere el brillo natural de sus dientes con nuestro servicio de blanqueamiento dental.</p>
+            </div>
+            <div class="service">
+                <h3>Brackets</h3>
+                <p>Corrija la alineación de sus dientes con nuestros brackets de última generación.</p>
+            </div>
+            <div class="service">
+                <h3>Extracción de dientes del juicio</h3>
+                <p>Elimine la incomodidad y prevenga problemas futuros con nuestras extracciones seguras.</p>
+            </div>
+            <div class="service">
+                <h3>Curación</h3>
+                <p>Ofrecemos tratamientos de curación para diversas afecciones dentales.</p>
+            </div>
+        </section>
+        <section id="promotion" class="highlight">
+            <h2>Promoción Especial: Limpiezas Dentales</h2>
+            <p>¡Aproveche nuestra oferta especial en limpiezas dentales! Mantenga su sonrisa saludable y brillante.</p>
+            <div class="animated-teeth"></div>
+            <div class="animated-teeth"></div>
+            <div class="animated-teeth"></div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Clínica Dental del Pueblo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
